@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://code.jquery.com/ui/1.13.3/themes/smoothness/jquery-ui.css"
+  />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <h1>ToDo List</h1>
+    <div class="container">
+      <div class="task-input">
+        <form id="task-form">
+          <fieldset>
+            <label id="task-lable">Task Name</label>
+            <input id="taskTitle" type="text" />
+          </fieldset>
+          <fieldset>
+            <label id="start-date-lable" for="start-date">Start Date</label>
+            <input id="start-date" type="text" />
+            <!-- 
+          <label for="end-date"> End Date</label>
+          <input id="end-date" type="text" /> -->
+          </fieldset>
+          <button id="submitBtn" type="button">Submit</button>
+        </form>
+      </div>
+      <div class="list-container">
+        <ul id="list"></ul>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

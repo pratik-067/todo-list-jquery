@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.task-list,
+.task-input {
+  margin: 10px;
+}
+
+.task-list {
+  width: 300px;
+  height: fit-content;
+}
